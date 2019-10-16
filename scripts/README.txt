@@ -4,7 +4,7 @@ Note on the script:
 
 2. Under the rootdir, put the yearly split AR tag files at 'data/ARTMIP/AR_identify/%s/%s.%d.nc' % (method, method, year)
 
-3. Under the rootdir, put the MERRA2 IVE files at 'data/ARTMIP/MERRA_IVT/IVT.%d.nc' % (year)
+3. Under the rootdir, put the MERRA2 IVT files at 'data/ARTMIP/MERRA_IVT/IVT.%d.nc' % (year)
 
 4. after step01, please aggregate all the files into a single file
        i.e.,'data/AR_features/part1/AR_feature.part1.%s.1981-2015.nc' % (method)
